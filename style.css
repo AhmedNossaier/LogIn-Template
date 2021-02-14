@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body 
+{
+    background-image: url(./images/pexels-jessica-lewis-583846.jpg);
+    background-position: center center;
+    background-size: cover  ;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.loginbox
+{
+    width: 320px;
+    height: 450px;
+    background-color:rgba(0,0,0,0.4);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    box-sizing: border-box;
+    padding: 100px 30px;
+    
+}
+
+.loginbox img 
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 70px);
+}
+
+h1{
+    padding: 20px ;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+.loginbox label
+{
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.special
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.pass
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.pass:hover 
+{
+    cursor: pointer;
+    background-color: #ffc107;
+    color: #000;
+    transition: transform .2s ;
+}
+
+.loginbox a 
+{
+    text-decoration: none;
+  
+    line-height: 20px;
+    color: darkgray;
+}
+
+.loginbox a:hover{
+    color: #09c;
+}
+
